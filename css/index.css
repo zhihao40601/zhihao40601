@@ -1,0 +1,73 @@
+/* 全局布局 */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1f2020;
+    color: rgb(204, 202, 202);
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+}
+.container {
+    margin: 0 auto;
+}
+/* 響應式布局-全局寬度 */
+@media screen and (max-width : 767px) {
+    .container {
+        width : 80%
+    }
+}
+@media screen and (min-width : 768px) {
+    .container {
+        width : 750px
+    }
+}
+@media screen and (min-width : 992px) {
+    .container {
+        width : 970px
+    }
+}
+@media screen and (min-width : 1200px) {
+    .container {
+        width : 1170px;
+    }
+}
+/* 響應式布局-全局字體大小 */
+/* @media (max-width : 767px) {
+    h2 { font-size: 22px }
+    p {font-size: 22px;}
+} */
+/* 上半部分 */
+.select-header {
+    display: flex;
+    justify-content: center;
+    height: 36px;
+}
+.select-block {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 36px;
+    margin-top: 2px;
+    border-bottom: 3px solid #464545;
+    border-top: 3px solid #464545;
+}
+/* 每一個小連結 */
+.item-link {
+    color: gray;
+    font-size: 22px;
+    margin:10px;
+    text-decoration : none;
+}
+
+/* 下半部分 */
+.bottom-footer {
+    margin-top: 5px;
+    text-align:justify;
+    font-size: 18px;
+}
+
+

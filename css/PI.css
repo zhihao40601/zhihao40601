@@ -1,0 +1,55 @@
+/* 整個下頁面內容 */
+.bottom-page {
+    height: 850px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/* 下頁面的名字部分 */
+.bottom-topArea {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight:bold;
+}
+/* 下頁面的下半部標題 */
+.bottom-pageTitle {
+    margin-top: 10px;
+    margin-left: 53px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.bottom-pageArea {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 100px;
+}
+/* 下頁面的底部 */
+.bottom-footer {
+    position: relative;
+    border: 1px solid gray;
+    width: 700px;
+    height: 200px;
+    margin-left: 100px;
+}
+.bottom-footerTitle {
+    position: absolute;
+    width: 700px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-weight:bold;
+}
+.bottom-footerArea {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 16px;
+    width: 350px;
+    white-space: nowrap;
+}
+.bottom-footerTime {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    margin-left: 30px; 
+    margin-top: 40px;
+}

@@ -1,0 +1,26 @@
+.form {
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin-left: 70px;
+    width: 700px;
+    text-align: center;
+    color: rgb(74, 74, 73);
+}
+td {
+    border: 1px solid black;
+    width: 70px;
+    height: 100px;
+}
+.name {
+    text-align: center;
+}
+.form-odd {
+    background-color: #C6D9F1;
+}
+.form-even {
+    background-color: #DBE5F1;
+}
+/* 底線 */
+hr {
+ border: 1px solid gray;
+}
